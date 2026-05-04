@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        fun: {
+          pink: "hsl(var(--fun-pink))",
+          yellow: "hsl(var(--fun-yellow))",
+          blue: "hsl(var(--fun-blue))",
+          green: "hsl(var(--fun-green))",
+        },
+        "primary-glow": "hsl(var(--primary-glow))",
+      },
+      fontFamily: {
+        display: ['Fredoka', 'system-ui', 'sans-serif'],
+        body: ['Nunito', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
