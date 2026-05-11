@@ -42,7 +42,7 @@ export default function Generator() {
       <header className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-display leading-tight">
-            <span className="text-gradient">PetNomes</span>
+            <span className="text-gradient">Two Names Pet</span>
           </h1>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
             <PawPrint className="h-3.5 w-3.5" /> Encontre o nome perfeito

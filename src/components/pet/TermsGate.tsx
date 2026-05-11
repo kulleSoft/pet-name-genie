@@ -5,7 +5,7 @@ import { useLocalStorage } from '@/hooks/useLocalStorage';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { PawPrint } from 'lucide-react';
 
-export const TERMS_TEXT = `Bem-vindo ao PetNomes! 🐾
+export const TERMS_TEXT = `Bem-vindo ao Two Names Pet! 🐾
 
 Ao usar este aplicativo você concorda com:
 
@@ -27,7 +27,7 @@ export function TermsGate({ children }: { children: React.ReactNode }) {
         <div className="min-h-screen flex items-center justify-center px-6 text-center">
           <div className="space-y-3">
             <PawPrint className="h-12 w-12 mx-auto text-primary animate-float-slow" />
-            <h1 className="text-2xl font-display">PetNomes</h1>
+            <h1 className="text-2xl font-display">Two Names Pet</h1>
             <p className="text-muted-foreground text-sm">Aceite os termos para continuar.</p>
           </div>
         </div>
