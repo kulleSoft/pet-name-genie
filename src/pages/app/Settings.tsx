@@ -75,7 +75,7 @@ export default function SettingsPage() {
       </div>
 
       <p className="text-center text-xs text-muted-foreground pt-4">
-        PetNomes · Feito com 💜 para os pets
+        Two Names Pet · Feito com 💜 para os pets
       </p>
 
       <Dialog open={open} onOpenChange={setOpen}>
