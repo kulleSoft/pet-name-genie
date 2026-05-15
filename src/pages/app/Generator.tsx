@@ -23,6 +23,7 @@ export default function Generator() {
   const { push } = useHistory();
 
   const generate = () => {
+    console.log('Gerar nomes clicado — pet:', pet, 'gender:', gender, 'styles:', styles);
     const result = generateNames({ pet, gender, styles, count: 8 });
     setNames(result);
     push(result);
