@@ -22,16 +22,18 @@ export default function Generator() {
   const [names, setNames] = useState<string[]>([]);
   const { push } = useHistory();
 
-  const generate = () => {
-    console.log('Gerar nomes clicado — pet:', pet, 'gender:', gender, 'styles:', styles);
+  const runGenerate = (log = false) => {
+    if (log) console.log('Gerar nomes clicado — pet:', pet, 'gender:', gender, 'styles:', styles);
     const result = generateNames({ pet, gender, styles, count: 8 });
     setNames(result);
     push(result);
   };
 
+  const generate = () => runGenerate(true);
+
   // Sugestões aleatórias ao abrir
   useEffect(() => {
-    generate();
+    runGenerate();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
